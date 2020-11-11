@@ -170,8 +170,9 @@ public class MainMVPActivity extends BaseMVPActivity {
                 goIntent();
                 break;
             case R.id.btn_custom_view:
-                intent = new Intent(MainMVPActivity.this, CustomMVPActivity.class);
-                goIntent();
+//                intent = new Intent(MainMVPActivity.this, CustomMVPActivity.class);
+//                goIntent();
+                ToastUtil.showImageToas(MainMVPActivity.this,"点击自定义view");
                 break;
             case R.id.btn_interface:
                 intent = new Intent(MainMVPActivity.this, InterfaceDemoMVPActivity.class);
