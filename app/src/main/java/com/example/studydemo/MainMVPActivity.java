@@ -154,9 +154,9 @@ public class MainMVPActivity extends BaseMVPActivity {
         switch (view.getId()) {
             case R.id.btn_rxjava:
             case R.id.btn_fish:
-                intent=new Intent(MainMVPActivity.this,CustomToastActivity.class);
-                goIntent();
-                ToastUtil.showImageToas(MainMVPActivity.this,"网络超时");
+//                intent=new Intent(MainMVPActivity.this,CustomToastActivity.class);
+//                goIntent();
+                ToastUtil.showImageToas(MainMVPActivity.this,"点击鱼");
                 break;
             case R.id.commonTitleBar:
             case R.id.btn_navigation_view:
