@@ -153,6 +153,7 @@ public class MainMVPActivity extends BaseMVPActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_rxjava:
+                ToastUtil.showImageToas(MainMVPActivity.this,"点击rxjava");
             case R.id.btn_fish:
 //                intent=new Intent(MainMVPActivity.this,CustomToastActivity.class);
 //                goIntent();
