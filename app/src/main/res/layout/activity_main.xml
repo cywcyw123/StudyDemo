@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMVPActivity">
+
+
+    <Button
+        android:id="@+id/btn_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/green"
+        android:textAllCaps="false"
+        android:text="RXJava Retrofit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commonTitleBar" />
+
+    <Button
+        android:id="@+id/btn_custom_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/green"
+        android:text="自定义view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rxjava" />
+
+    <Button
+        android:id="@+id/btn_fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/green"
+        android:text="鱼"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_custom_view" />
+
+    <Button
+        android:id="@+id/btn_interface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/green"
+        android:text="接口回调"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fish" />
+
+    <com.example.studydemo.base.CommonTitleBar
+        android:id="@+id/commonTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="studyDemo"
+        app:title_size="10dp"/>
+
+    <Button
+        android:id="@+id/btn_view_page_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/green"
+        android:text="viewPageFragment"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_interface" />
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="handler"
+        android:background="@color/green"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_view_page_fragment" />
+
+    <Button
+        android:id="@+id/btn_base_recycle_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="BaseRecycleViewAdapter"
+        android:background="@color/green"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_handler" />
+
+    <Button
+        android:id="@+id/btn_component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="组件"
+        android:background="@color/green"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_base_recycle_adapter" />
+
+    <Button
+        android:id="@+id/btn_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="drawLayout和navigationView"
+        android:background="@color/green"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_component" />
+
+    <Button
+        android:id="@+id/btn_lifecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:background="@color/green"
+        android:text="lifecycle例子"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_rxjava"
+        app:layout_constraintStart_toEndOf="@+id/btn_rxjava"
+        app:layout_constraintTop_toTopOf="@+id/btn_rxjava"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="baseMVP例子"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_custom_view"
+        app:layout_constraintEnd_toEndOf="@+id/btn_lifecycle"
+        app:layout_constraintStart_toStartOf="@+id/btn_lifecycle"
+        app:layout_constraintTop_toTopOf="@+id/btn_custom_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

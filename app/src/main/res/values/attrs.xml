@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+    <color name="pink">#F3B4B6</color>
+    <color name="green">#68D4A0</color>
+    <color name="color_F0FBF5">#F0FBF5</color>
+    <color name="blue">#3A72E9</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="white">#DFE1E2</color>
+    <color name="gray_m"> #7F7F7F</color>
+
+    <!-- 带阴影的cardView   -->
+    <declare-styleable name="ShadowCardView">
+        <attr name="cornersRadius" format="dimension"/>
+        <attr name="shadowLeftHeight" format="dimension"/>
+        <attr name="shadowTopHeight" format="dimension"/>
+        <attr name="shadowRightHeight" format="dimension"/>
+        <attr name="shadowBottomHeight" format="dimension"/>
+        <attr name="shadowOffsetX" format="dimension"/>
+        <attr name="shadowOffsetY" format="dimension"/>
+        <attr name="cardColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="src" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonTitleBar">
+        <!--    背景    -->
+        <attr name="background_color" format="color"/>
+        <!--    标题       -->
+        <attr name="title" format="string"/>
+        <!--    标题颜色     -->
+        <attr name="title_color" format="color"/>
+        <!--    标题文字大小   -->
+        <attr name="title_size" format="dimension"/>
+        <!--    标题样式    -->
+        <attr name="title_style">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+        </attr>
+        <!--    图标      -->
+        <attr name="icon_back" format="reference"/>
+        <attr name="icon_left" format="reference"/>
+        <attr name="icon_right" format="reference"/>
+        <attr name="icon_close" format="reference"/>
+        <!--  右侧文本      -->
+        <attr name="text_right" format="string"/>
+
+    </declare-styleable>
+    <!-- 选择器（时间）   -->
+    <declare-styleable name="PickerView">
+        <attr name="hasLeftVerticalLine" format="boolean"/>
+        <attr name="hasRightVerticalLine" format="boolean"/>
+        <attr name="isTextAlignLeft" format="boolean"/>
+    </declare-styleable>
+</resources>

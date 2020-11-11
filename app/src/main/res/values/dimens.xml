@@ -1,0 +1,54 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="std_dimen_10sp">10sp</dimen>
+    <dimen name="std_dimen_11sp">11sp</dimen>
+    <dimen name="std_dimen_12sp">12sp</dimen>
+    <dimen name="std_dimen_13sp">13sp</dimen>
+    <dimen name="std_dimen_14sp">14sp</dimen>
+    <dimen name="std_dimen_15sp">15sp</dimen>
+    <dimen name="std_dimen_16sp">16sp</dimen>
+    <dimen name="std_dimen_17sp">17sp</dimen>
+    <dimen name="std_dimen_18sp">18sp</dimen>
+    <dimen name="std_dimen_20sp">20sp</dimen>
+    <dimen name="std_dimen_30sp">30sp</dimen>
+    <dimen name="std_dimen_34sp">34sp</dimen>
+    <dimen name="guide_vp_btn_text_size">20sp</dimen>
+    <dimen name="date_unit_text_size">18sp</dimen>
+    <dimen name="login_title_text_size">18sp</dimen>
+    <dimen name="register_title_text_size">18sp</dimen>
+    <dimen name="login_input_email_text_size">15sp</dimen>
+    <dimen name="register_input_name_text_size">15sp</dimen>
+    <dimen name="register_input_email_text_size">15sp</dimen>
+    <dimen name="login_input_pwd_text_size">15sp</dimen>
+    <dimen name="login_btn_login_text_size">15sp</dimen>
+    <dimen name="register_btn_register_text_size">15sp</dimen>
+    <dimen name="login_btn_skip_step_text_size">12sp</dimen>
+    <dimen name="login_btn_forgot_pwd_text_size">12sp</dimen>
+    <dimen name="login_tv_no_account_text_size">12sp</dimen>
+    <dimen name="register_tv_register_privacy_text_size">12sp</dimen>
+    <dimen name="guide_vp_tv_content_size">20sp</dimen>
+    <dimen name="forget_password_tv_title_size">18sp</dimen>
+    <dimen name="forget_password_input_email_size">15sp</dimen>
+    <dimen name="forget_password_btn_send_email_size">15sp</dimen>
+    <dimen name="register_register_input_pwd_error_text_size">12sp</dimen>
+    <dimen name="main_pager_tab_text_size">10sp</dimen>
+
+
+
+
+    <dimen name="picker_view_height">190dp</dimen>
+
+    <dimen name="guide_vp_btn_bg_width">200dp</dimen>
+    <dimen name="guide_vp_btn_bg_height">44dp</dimen>
+    <dimen name="guide_vp_tv_content_line_spacing">5dp</dimen>
+
+    <dimen name="forget_password_btn_send_email_bg_width">269dp</dimen>
+    <dimen name="login_login_btn_bg_width">269dp</dimen>
+    <dimen name="register_register_btn_bg_width">269dp</dimen>
+    <dimen name="forget_password_btn_send_email_bg_height">44dp</dimen>
+    <dimen name="login_login_btn_bg_height">44dp</dimen>
+    <dimen name="register_register_btn_bg_height">44dp</dimen>
+</resources>
